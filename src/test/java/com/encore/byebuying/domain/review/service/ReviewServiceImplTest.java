@@ -87,6 +87,8 @@ class ReviewServiceImplTest {
         List<Review> findReviews2 = reviewRepository.findByUserId(user2.getId());
         assertThat(findReviews1.size()).isEqualTo(1);
         assertThat(findReviews2.size()).isEqualTo(2);
+
+//        userRepository
     }
 
 
